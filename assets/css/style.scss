@@ -151,6 +151,7 @@ img {
 // Components Imported
 @import "component/topbar";
 @import "component/header";
+@import "component/banner-slider";
 @import "component/category";
 @import "component/popularProducts";
 @import "component/footer";
@@ -162,8 +163,8 @@ img {
     font: {
       size: 48px;
       weight: 700;
-      family: var(--primaryFont)
-    };
+      family: var(--primaryFont);
+    }
   }
 }
 
@@ -297,7 +298,6 @@ img {
   }
 }
 
-
 .pagination {
   display: block;
   text-align: center;
@@ -316,7 +316,8 @@ img {
         align-items: center;
         justify-content: center;
       }
-      &:first-child, &:last-child {
+      &:first-child,
+      &:last-child {
         a {
           position: relative;
           top: 2px;

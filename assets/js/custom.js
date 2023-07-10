@@ -11,6 +11,23 @@
     $(".popupSearchBar").toggle();
   });
 
+  // banner-ara
+
+  $(".slider-wrapper-banner").owlCarousel({
+    smartSpeed: 1000,
+    center: true,
+    items: 1.3,
+    loop: true,
+    margin: 10,
+    dots: false,
+    nav: true,
+    navText: ['<iconify-icon icon="fa6-solid:angle-left"></iconify-icon>', '<iconify-icon icon="fa6-solid:angle-right"></iconify-icon>'],
+    responsive: {
+
+    }
+
+  });
+
   // Slider area
 
   $(".popular-products-slider-area").owlCarousel({
@@ -18,7 +35,7 @@
     margin: 30,
     dots: false,
     nav: true,
-    navText: ['<iconify-icon icon="fa6-solid:angle-left"></iconify-icon>','<iconify-icon icon="fa6-solid:angle-right"></iconify-icon>'],
+    navText: ['<iconify-icon icon="fa6-solid:angle-left"></iconify-icon>', '<iconify-icon icon="fa6-solid:angle-right"></iconify-icon>'],
     responsive: {
       0: {
         items: 1,
