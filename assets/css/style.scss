@@ -155,6 +155,7 @@ img {
 @import "component/category";
 @import "component/popularProducts";
 @import "component/footer";
+@import "component/filter-category";
 
 // Section Heading
 .section-heading {
@@ -315,6 +316,10 @@ img {
         display: inline-flex;
         align-items: center;
         justify-content: center;
+      }
+      .active {
+        background-color: var(--blueColor);
+        color: #fff;
       }
       &:first-child,
       &:last-child {

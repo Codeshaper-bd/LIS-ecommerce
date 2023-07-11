@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
 :root {
@@ -1301,6 +1302,320 @@ Header Responsive Area CSS
   color: var(--yellowColor);
 }
 
+.filter-by-category {
+  background-color: var(--cardBg);
+  padding: 25px;
+  border-radius: 8px;
+}
+.filter-by-category .searchbar-category {
+  border: 0.8px solid rgba(71, 85, 105, 0.3);
+  border-radius: 4px;
+  background-color: var(--white, #fff);
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 15px;
+}
+.filter-by-category .searchbar-category input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding-right: 10px;
+}
+.filter-by-category .searchbar-category input:focus {
+  border: none;
+  outline: none;
+}
+.filter-by-category .searchbar-category .popup-button {
+  top: 50%;
+  transform: translate(10%, 0%);
+  width: unset !important;
+}
+.filter-by-category .searchbar-category .popup-button::before {
+  content: "";
+  position: absolute;
+  background-color: var(--blueColor);
+  width: 1px;
+  height: 24px;
+  right: 30px;
+}
+.filter-by-category .category-list {
+  margin-top: 25px;
+}
+.filter-by-category .category-list p {
+  color: var(--headerColor);
+  font-family: var(--primaryFont);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.filter-by-category .category-list ul {
+  padding-left: 0px;
+  margin-top: 5px;
+  list-style: none;
+}
+.filter-by-category .category-list ul li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 5px;
+  font-family: var(--SecondaryFont);
+  color: var(--textColor);
+}
+.filter-by-category .category-list ul li .filter-item {
+  position: relative;
+}
+.filter-by-category .category-list ul li .filter-item input {
+  opacity: 0;
+}
+.filter-by-category .category-list ul li .filter-item label {
+  padding-left: 8px;
+}
+.filter-by-category .category-list ul li .filter-item .checkbox {
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--blueColor);
+  border-radius: 3px;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+.filter-by-category .category-list ul li .filter-item .checkbox::before {
+  content: "✓";
+  font-size: 10px;
+  color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.filter-by-category .category-list ul li .filter-item input[type=checkbox]:checked + span {
+  background-color: var(--blueColor);
+}
+.filter-by-category .category-list ul li .filter-item input[type=checkbox]:checked + span::before {
+  color: #fff;
+}
+.filter-by-category .category-list ul li .quantity {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  font-size: 8px;
+  font-family: var(--primaryFont);
+  color: var(--headerColor);
+}
+
+.price-filter {
+  margin-top: 30px;
+  background-color: var(--cardBg);
+  padding: 25px;
+  border-radius: 8px;
+}
+.price-filter p {
+  color: var(--headerColor);
+  font-family: var(--primaryFont);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.price-filter .price-range {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.price-filter .price-range p {
+  font-size: 12px;
+  font-weight: 400;
+}
+.price-filter .price-range .input-single {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.8px solid rgba(71, 85, 105, 0.3);
+  border-radius: 4px;
+  background-color: var(--cardBg);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.price-filter .price-range .input-single input {
+  max-width: 60px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background-color: var(--cardBg);
+}
+.price-filter .price-range .input-single input:focus {
+  border: none;
+  outline: none;
+  background-color: var(--cardBg);
+}
+
+.filter-by-stock {
+  margin-top: 50px;
+  background-color: var(--cardBg);
+  padding: 25px;
+  border-radius: 8px;
+}
+.filter-by-stock .category-list p {
+  color: var(--headerColor);
+  font-family: var(--primaryFont);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.filter-by-stock .category-list ul {
+  padding-left: 0px;
+  margin-top: 5px;
+  list-style: none;
+}
+.filter-by-stock .category-list ul li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 5px;
+  font-family: var(--SecondaryFont);
+  color: var(--textColor);
+}
+.filter-by-stock .category-list ul li .filter-item {
+  position: relative;
+}
+.filter-by-stock .category-list ul li .filter-item input {
+  opacity: 0;
+}
+.filter-by-stock .category-list ul li .filter-item label {
+  padding-left: 8px;
+}
+.filter-by-stock .category-list ul li .filter-item .checkbox {
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--blueColor);
+  border-radius: 3px;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+.filter-by-stock .category-list ul li .filter-item .checkbox::before {
+  content: "✓";
+  font-size: 10px;
+  color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.filter-by-stock .category-list ul li .filter-item input[type=checkbox]:checked + span {
+  background-color: var(--blueColor);
+}
+.filter-by-stock .category-list ul li .filter-item input[type=checkbox]:checked + span::before {
+  color: #fff;
+}
+.filter-by-stock .category-list ul li .quantity {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  width: 20px;
+  font-size: 8px;
+  font-family: var(--primaryFont);
+  color: var(--headerColor);
+}
+
+.best-seller {
+  margin-top: 50px;
+  background-color: var(--cardBg);
+  padding: 25px;
+  border-radius: 8px;
+}
+.best-seller p {
+  color: var(--headerColor);
+  font-family: var(--primaryFont);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.best-seller .seller-card {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.best-seller .seller-card .seller-image {
+  width: 60px;
+  height: 70px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #fff !important;
+}
+.best-seller .seller-card .seller-text {
+  padding-left: 10px;
+}
+.best-seller .seller-card .seller-text .category {
+  color: var(--textColor);
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 5px;
+}
+.best-seller .seller-card .seller-text .title {
+  color: var(--headerColor);
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.best-seller .seller-card .seller-text .price {
+  color: var(--yellowColor);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 4px;
+  margin-bottom: 0px;
+  line-height: 10px;
+}
+
+.reset-field {
+  margin: 20px auto;
+  text-align: center;
+  width: 80%;
+}
+.reset-field .blue-button {
+  background-color: var(--headerColor);
+  display: block;
+}
+.reset-field .blue-button iconify-icon {
+  top: 5px;
+}
+
+.pagination-filter {
+  background-color: var(--cardBg);
+  padding: 15px 25px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pagination-filter p {
+  margin: 0;
+}
+.pagination-filter select {
+  padding: 10px 50px;
+  border-radius: 4px;
+  border: 1px solid gray !important;
+  background: var(--whiteColor);
+}
+
 .section-heading h3 {
   margin-bottom: 0;
   font-size: 48px;
@@ -1437,6 +1752,10 @@ Header Responsive Area CSS
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+.pagination ul li .active {
+  background-color: var(--blueColor);
+  color: #fff;
 }
 .pagination ul li:first-child a, .pagination ul li:last-child a {
   position: relative;
