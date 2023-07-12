@@ -316,11 +316,19 @@ img {
         display: inline-flex;
         align-items: center;
         justify-content: center;
+
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+          background-color: var(--blueColor);
+          color: #fff !important;
+        }
       }
       .active {
         background-color: var(--blueColor);
         color: #fff;
       }
+
       &:first-child,
       &:last-child {
         a {

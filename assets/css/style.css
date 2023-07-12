@@ -1752,6 +1752,11 @@ Header Responsive Area CSS
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  transition: 0.3s ease-in-out;
+}
+.pagination ul li a:hover {
+  background-color: var(--blueColor);
+  color: #fff !important;
 }
 .pagination ul li .active {
   background-color: var(--blueColor);
