@@ -21,11 +21,11 @@
     margin: 10,
     dots: false,
     nav: true,
-    navText: ['<iconify-icon icon="fa6-solid:angle-left"></iconify-icon>', '<iconify-icon icon="fa6-solid:angle-right"></iconify-icon>'],
-    responsive: {
-
-    }
-
+    navText: [
+      '<iconify-icon icon="fa6-solid:angle-left"></iconify-icon>',
+      '<iconify-icon icon="fa6-solid:angle-right"></iconify-icon>',
+    ],
+    responsive: {},
   });
 
   // Slider area
@@ -35,7 +35,10 @@
     margin: 30,
     dots: false,
     nav: true,
-    navText: ['<iconify-icon icon="fa6-solid:angle-left"></iconify-icon>', '<iconify-icon icon="fa6-solid:angle-right"></iconify-icon>'],
+    navText: [
+      '<iconify-icon icon="fa6-solid:angle-left"></iconify-icon>',
+      '<iconify-icon icon="fa6-solid:angle-right"></iconify-icon>',
+    ],
     responsive: {
       0: {
         items: 1,
@@ -55,23 +58,40 @@
   });
 
   //image canvas
-  $('.slider-for').slick({
+  $(".slider-for").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
     fade: true,
-    asNavFor: '.slider-nav'
+    asNavFor: ".slider-nav",
   });
-  $('.slider-nav').slick({
+  $(".slider-nav").slick({
     slidesToShow: 3,
     slidesToScroll: 1,
-    asNavFor: '.slider-for',
+    asNavFor: ".slider-for",
     dots: false,
     centerMode: true,
     vertical: false,
-    focusOnSelect: true
+    focusOnSelect: true,
   });
 
+  //button-increment-decrement
+  var incrementPlus;
+  var incrementMinus;
 
+  var buttonPlus = $(".right");
+  var buttonMinus = $(".left");
 
+  var incrementPlus = buttonPlus.click(function () {
+    var $n = $(this).parent(".counter-button").find(".qty");
+    $n.val(Number($n.val()) + 1);
+  });
+
+  var incrementMinus = buttonMinus.click(function () {
+    var $n = $(this).parent(".counter-button").find(".qty");
+    var amount = Number($n.val());
+    if (amount > 0) {
+      $n.val(amount - 1);
+    }
+  });
 })(jQuery);
