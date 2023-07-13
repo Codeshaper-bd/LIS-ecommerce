@@ -202,19 +202,20 @@
     }
     .info-tab {
         margin-top: 50px;
-        .nav-tab {
-            .nav-item {
-                .nav-link .active {
-                    color: #495057;
-                    font-weight: 600;
-                    background-color: #fff;
-                    border-color: #fff;
-                    border-top-color: transparent;
-                    border-right-color: transparent;
-                    border-bottom-color: transparent;
-                    border-left-color: transparent;
-                }
+        .nav-tabs {
+            .nav-link {
+                border-top: none !important;
+                border-left: none !important;
+                border-right: none !important;
+                color: var(--headerColor);
             }
+        }
+        .active {
+            border-bottom: 2px solid gray !important;
+            font-weight: 600;
+        }
+        .tab-content > .active {
+            display: none;
         }
     }
 }

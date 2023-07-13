@@ -1346,15 +1346,18 @@ Header Responsive Area CSS
 .product-details-page .info-tab {
   margin-top: 50px;
 }
-.product-details-page .info-tab .nav-tab .nav-item .nav-link .active {
-  color: #495057;
+.product-details-page .info-tab .nav-tabs .nav-link {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  color: var(--headerColor);
+}
+.product-details-page .info-tab .active {
+  border-bottom: 2px solid gray !important;
   font-weight: 600;
-  background-color: #fff;
-  border-color: #fff;
-  border-top-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
-  border-left-color: transparent;
+}
+.product-details-page .info-tab .tab-content > .active {
+  display: none;
 }
 
 .bg-FDC4401 {
