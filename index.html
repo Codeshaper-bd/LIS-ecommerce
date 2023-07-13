@@ -209,8 +209,8 @@
               </ul>
               <div class="menu-sidebar">
                 <ul>
-                  <li>
-                    <iconify-icon id="popupSearchButton" icon="mdi:cart-outline"></iconify-icon>
+                  <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <iconify-icon icon="mdi:cart-outline"></iconify-icon>
                   </li>
                   <li>
                     <button class="popup-button">
@@ -341,6 +341,108 @@
           <h4><a href="shop.html">LIS Cup</a></h4>
           <a href="shop.html" class="read-more-link">Explore Now
             <iconify-icon icon="heroicons:arrow-long-right"></iconify-icon></a>
+        </div>
+      </div>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Shopping Cart</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="cart-wrapper">
+            <div class="cart-items-wrapper">
+              <div class="cart-item-single">
+                <div class="cart-image">
+                  <img src="assets/images/products/t-shirt-black-h.png" alt="cup">
+                </div>
+                <div class="cart-content">
+                  <h4>LIS Casuals Black T-Shirt</h4>
+                  <p>$<span>56</span></p>
+                  <div class="button-group">
+                    <div class="counter-button">
+                      <button type="button" class="left">
+                        <iconify-icon icon="iconoir:minus"></iconify-icon>
+                      </button>
+                      <input readonly type="number" value="0" name="qty" class="qty" />
+                      <button type="button" class="right">
+                        <iconify-icon icon="ic:baseline-plus"></iconify-icon>
+                      </button>
+                    </div>
+
+                    <div class="popup-button">
+                      <a class="default-button" href="#"><iconify-icon icon="mdi:trashcan-outline"></iconify-icon></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cart-item-single">
+                <div class="cart-image">
+                  <img src="assets/images/products/t-shirt-black-h.png" alt="cup">
+                </div>
+                <div class="cart-content">
+                  <h4>LIS Casuals Black T-Shirt</h4>
+                  <p>$<span>56</span></p>
+                  <div class="button-group">
+                    <div class="counter-button">
+                      <button type="button" class="left">
+                        <iconify-icon icon="iconoir:minus"></iconify-icon>
+                      </button>
+                      <input readonly type="number" value="0" name="qty" class="qty" />
+                      <button type="button" class="right">
+                        <iconify-icon icon="ic:baseline-plus"></iconify-icon>
+                      </button>
+                    </div>
+
+                    <div class="popup-button">
+                      <a class="default-button" href="#"><iconify-icon icon="mdi:trashcan-outline"></iconify-icon></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="suggestion-card-wrapper">
+              <div class="cart-suggestion-card">
+                <p class="suggestion-title">You may also like</p>
+                <div class="suggestion-item-single">
+                  <div class="suggestion-image">
+                    <img src="assets/images/products/t-shirt-black-h.png" alt="cup">
+                  </div>
+                  <div class="suggestion-content">
+                    <p class="catgory">Bottle</p>
+                    <h4>LIS Casuals Black T-Shirt</h4>
+                    <p>$<span>56</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="cart-suggestion-card">
+                <p class="suggestion-title">You may also like</p>
+                <div class="suggestion-item-single">
+                  <div class="suggestion-image">
+                    <img src="assets/images/products/t-shirt-black-h.png" alt="cup">
+                  </div>
+                  <div class="suggestion-content">
+                    <p class="catgory">Bottle</p>
+                    <h4>LIS Casuals Black T-Shirt</h4>
+                    <p>$<span>56</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="cart-suggestion-card">
+                <p class="suggestion-title">You may also like</p>
+                <div class="suggestion-item-single">
+                  <div class="suggestion-image">
+                    <img src="assets/images/products/t-shirt-black-h.png" alt="cup">
+                  </div>
+                  <div class="suggestion-content">
+                    <p class="catgory">Bottle</p>
+                    <h4>LIS Casuals Black T-Shirt</h4>
+                    <p>$<span>56</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
     </div>

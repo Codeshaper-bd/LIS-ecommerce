@@ -1465,6 +1465,115 @@ Header Responsive Area CSS
   background-color: #c30016;
 }
 
+.offcanvas-body .cart-wrapper .cart-items-wrapper .cart-item-single {
+  display: grid;
+  margin-bottom: 20px;
+  grid-template-columns: 120px 1fr;
+}
+.offcanvas-body .cart-wrapper .cart-items-wrapper .cart-item-single .cart-content {
+  margin-left: 10px;
+}
+.offcanvas-body .cart-wrapper .cart-items-wrapper .cart-item-single .cart-content h4 {
+  font-family: var(--primaryFont);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.offcanvas-body .cart-wrapper .cart-items-wrapper .cart-item-single .cart-content p {
+  font-family: var(--primaryFont);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 5px !important;
+}
+.offcanvas-body .cart-wrapper .cart-items-wrapper .cart-item-single .cart-content .button-group iconify-icon {
+  color: var(--blueColor);
+}
+.offcanvas-body .cart-wrapper .cart-items-wrapper .cart-item-single .cart-content .button-group .counter-button {
+  width: 100px;
+  overflow: hidden;
+  margin-right: 10px;
+  background-color: transparent;
+  border: 1px solid var(--blueColor);
+  border-radius: 4px;
+}
+.offcanvas-body .cart-wrapper .cart-items-wrapper .cart-item-single .cart-content .button-group .counter-button button {
+  background-color: var(--whiteColor);
+  color: #252873;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+.offcanvas-body .cart-wrapper .cart-items-wrapper .cart-item-single .cart-content .button-group .counter-button input {
+  text-align: center;
+  width: 25px;
+  outline: none;
+  border: none;
+}
+.offcanvas-body .cart-wrapper .cart-items-wrapper .cart-item-single .cart-content .button-group .counter-button input:focus {
+  border: none;
+  outline: none;
+}
+.offcanvas-body .cart-wrapper .cart-items-wrapper .cart-item-single .cart-content .button-group .default-button {
+  border: transparent;
+  padding: 0 !important;
+}
+.offcanvas-body .cart-wrapper .cart-items-wrapper .cart-item-single .cart-content .button-group .default-button:hover {
+  padding: 0 !important;
+  color: var(--whiteColor);
+}
+.offcanvas-body .cart-wrapper .cart-items-wrapper .cart-item-single .cart-content .button-group .default-button:hover iconify-icon {
+  padding-left: 0;
+  color: var(--whiteColor);
+}
+.offcanvas-body .cart-wrapper .cart-items-wrapper .cart-item-single .cart-content .button-group .default-button iconify-icon {
+  padding-left: 0;
+}
+.offcanvas-body .cart-wrapper .cart-suggestion-card {
+  border-radius: 5px;
+  border: 1px solid var(--blueColor);
+  overflow: hidden;
+}
+.offcanvas-body .cart-wrapper .cart-suggestion-card .suggestion-title {
+  font-family: var(--primaryFont);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: var(--cardBg);
+  text-align: center;
+  padding: 10px;
+}
+.offcanvas-body .cart-wrapper .cart-suggestion-card .suggestion-item-single {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  padding: 10px;
+}
+.offcanvas-body .cart-wrapper .cart-suggestion-card .suggestion-item-single .suggestion-image {
+  width: 70px;
+}
+.offcanvas-body .cart-wrapper .cart-suggestion-card .suggestion-item-single .suggestion-content {
+  margin-left: 10px;
+}
+.offcanvas-body .cart-wrapper .cart-suggestion-card .suggestion-item-single .suggestion-content p {
+  line-height: 18px;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.offcanvas-body .cart-wrapper .cart-suggestion-card .suggestion-item-single .suggestion-content h4 {
+  font-family: var(--primaryFont);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.offcanvas-body .cart-wrapper .cart-suggestion-card .suggestion-item-single .suggestion-content .category {
+  color: var(--headerColor);
+  background-color: none;
+  font-family: var(--primaryFont);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
 .footer {
   position: relative;
   padding-top: 220px;

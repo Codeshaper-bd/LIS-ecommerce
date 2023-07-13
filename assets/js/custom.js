@@ -75,6 +75,13 @@
     focusOnSelect: true,
   });
 
+  $(".suggestion-card-wrapper").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    centerMode: true,
+  });
+
   //button-increment-decrement
   var incrementPlus;
   var incrementMinus;
