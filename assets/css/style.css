@@ -942,6 +942,224 @@ Header Responsive Area CSS
   color: var(--blackColor);
 }
 
+.checkout h4 {
+  color: var(--headerColor);
+  font-family: var(--primaryFont);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+}
+.checkout .warning {
+  background-color: var(--cardBg);
+  padding: 10px;
+  border-radius: 4px;
+}
+.checkout .warning p {
+  font-family: var(--primaryFont);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: var(--headerColor);
+  padding-left: 30px;
+}
+.checkout .warning p span {
+  position: relative;
+  color: var(--yellowColor);
+  margin-left: 10px;
+}
+.checkout .warning p span iconify-icon {
+  position: absolute;
+  top: 3px;
+  left: -30px;
+}
+.checkout .checkout-info {
+  margin-top: 45px;
+}
+.checkout .checkout-info .form-label {
+  margin-top: 20px;
+  color: var(--headerColor);
+  font-family: var(--primaryFont);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.checkout .checkout-info .form-control {
+  border-color: var(--blueColor);
+  margin-bottom: 15px;
+  padding: 16px !important;
+}
+border- .checkout .checkout-info .form-control:focus {
+  border-color: var(--blueColor) !important;
+  box-shadow: none !important;
+}
+.checkout .checkout-info .form-select {
+  border-color: var(--blueColor);
+  margin-bottom: 15px;
+  padding: 16px !important;
+}
+border- .checkout .checkout-info .form-select:focus {
+  border-color: var(--blueColor) !important;
+  box-shadow: none !important;
+}
+.checkout .table-wrapper {
+  overflow-x: scroll;
+  margin-top: 60px;
+}
+.checkout .table-wrapper .table-products {
+  margin-top: 15px;
+}
+.checkout .table-wrapper .table-products .table {
+  border: 1px solid var(--text-02, #475569);
+}
+.checkout .table-wrapper .table-products .table th {
+  position: relative;
+  padding-left: 30px;
+}
+.checkout .table-wrapper .table-products .table th .popup-button {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+.checkout .table-wrapper .table-products .table td .table-item-single {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+}
+.checkout .table-wrapper .table-products .table td .table-item-single .table-image {
+  display: flex;
+  align-items: center;
+}
+.checkout .table-wrapper .table-products .table td .table-item-single .table-content {
+  margin-left: 10px;
+}
+.checkout .table-wrapper .table-products .table td .table-item-single .table-content p {
+  line-height: 1 !important;
+  margin-bottom: 5px !important;
+}
+.checkout .table-wrapper .table-products .table td .table-item-single .table-content p span {
+  font-weight: 600;
+}
+.checkout .table-wrapper .table-products .table td .button-group iconify-icon {
+  position: relative;
+  top: 3px;
+  color: var(--blueColor);
+}
+.checkout .table-wrapper .table-products .table td .button-group .counter-button {
+  width: 100px;
+  overflow: hidden;
+  margin-right: 10px;
+  background-color: transparent;
+  border: 1px solid var(--blueColor);
+  border-radius: 4px;
+}
+.checkout .table-wrapper .table-products .table td .button-group .counter-button button {
+  background-color: var(--whiteColor);
+  color: #252873;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+.checkout .table-wrapper .table-products .table td .button-group .counter-button input {
+  text-align: center;
+  width: 25px;
+  outline: none;
+  border: none;
+}
+.checkout .table-wrapper .table-products .table td .button-group .counter-button input:focus {
+  border: none;
+  outline: none;
+}
+.checkout .table-wrapper .table-products .table td .button-group .default-button {
+  border: transparent;
+  padding: 0 !important;
+}
+.checkout .table-wrapper .table-products .table td .button-group .default-button:hover {
+  padding: 0 !important;
+  color: var(--whiteColor);
+}
+.checkout .table-wrapper .table-products .table td .button-group .default-button:hover iconify-icon {
+  padding-left: 0;
+  color: var(--whiteColor);
+}
+.checkout .table-wrapper .table-products .table td .button-group .default-button iconify-icon {
+  padding-left: 0;
+}
+.checkout .payment-method {
+  margin-top: 50px;
+}
+.checkout .payment-method .radio-button-group {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.checkout .payment-method .radio-button-group .form-check {
+  position: relative;
+}
+.checkout .payment-method .radio-button-group .form-check .form-check-input {
+  position: relative;
+  z-index: 9;
+  opacity: 0;
+}
+.checkout .payment-method .radio-button-group .form-check span {
+  top: 4px;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  background-color: var(--headerColor);
+  border-radius: 50%;
+  outline: 1px solid transparent;
+  outline-offset: 3px;
+  position: absolute;
+  left: 0;
+}
+.checkout .payment-method .radio-button-group .form-check input[type=radio]:checked + span {
+  outline: 1px solid var(--blueColor);
+}
+.checkout .payment-method .radio-button-group .form-check .form-check-label {
+  position: relative;
+  top: -3px;
+  color: var(--headerColor);
+  font-family: var(--primaryFont);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.checkout .payment-method .filter-item {
+  position: relative;
+}
+.checkout .payment-method .filter-item .form-check-input {
+  opacity: 0;
+}
+.checkout .payment-method .filter-item .form-check-label {
+  padding-left: 4px;
+}
+.checkout .payment-method .filter-item span {
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--blueColor);
+  border-radius: 3px;
+  position: absolute;
+  left: 0;
+  top: 6px;
+}
+.checkout .payment-method .filter-item span::before {
+  content: "✓";
+  font-size: 10px;
+  color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.checkout .payment-method .filter-item input[type=checkbox]:checked + span {
+  background-color: var(--blueColor);
+}
+.checkout .payment-method .filter-item input[type=checkbox]:checked + span::before {
+  color: #fff;
+}
+.checkout .place-order-button {
+  margin-top: 50px;
+}
+
 .category-content {
   display: flex;
   align-items: center;
@@ -2210,4 +2428,16 @@ Header Responsive Area CSS
 .pagination ul li:first-child a, .pagination ul li:last-child a {
   position: relative;
   top: 2px;
+}
+
+.download-button {
+  width: 350px;
+  margin: 0 auto;
+}
+.download-button .default-button {
+  display: block;
+}
+.download-button .default-button iconify-icon {
+  position: relative;
+  top: 5px;
 }/*# sourceMappingURL=style.css.map */
