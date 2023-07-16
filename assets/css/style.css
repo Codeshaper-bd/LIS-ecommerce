@@ -2279,6 +2279,137 @@ border- .checkout .checkout-info .form-select:focus {
   background: var(--whiteColor);
 }
 
+.dashboard .dashboard-profile-card {
+  border: 1px solid var(--blueColor);
+  border-radius: 10px;
+}
+.dashboard .dashboard-profile-card .dashboard-profile {
+  border-radius: 10px;
+  background-color: var(--blueColor);
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+}
+.dashboard .dashboard-profile-card .dashboard-profile .profile-image img {
+  border-radius: 50%;
+}
+.dashboard .dashboard-profile-card .dashboard-profile p {
+  color: var(--whiteColor);
+  font-family: var(--primaryFont);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 0px;
+}
+.dashboard .dashboard-profile-card .dashboard-item-list {
+  padding: 20px;
+}
+.dashboard .dashboard-profile-card .dashboard-item-list ul {
+  padding-left: 5px;
+  list-style: none;
+}
+.dashboard .dashboard-profile-card .dashboard-item-list ul li {
+  color: var(--blueColor);
+  padding: 15px;
+  font-family: var(--primaryFont);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  width: 100%;
+}
+.dashboard .dashboard-profile-card .dashboard-item-list ul li a {
+  color: var(--blueColor);
+  padding-left: 20px;
+  width: 100%;
+}
+.dashboard .dashboard-profile-card .dashboard-item-list ul li a iconify-icon {
+  position: relative;
+  top: 2px;
+  left: -10px;
+}
+.dashboard .dashboard-profile-card .dashboard-item-list ul li a:hover {
+  color: var(--blueColor);
+}
+.dashboard .dashboard-profile-card .dashboard-item-list ul li:hover {
+  background-color: var(--cardBg);
+  border-radius: 10px;
+  color: var(--blueColor);
+}
+.dashboard .dashboard-profile-card .dashboard-footer {
+  text-align: center;
+  border-top: 1px solid var(--blueColor);
+  color: var(--blueColor);
+  padding: 15px;
+  font-family: var(--primaryFont);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  width: 100%;
+}
+.dashboard .dashboard-profile-card .dashboard-footer a {
+  text-decoration: none;
+  color: var(--blueColor);
+  width: 100%;
+}
+.dashboard .dashboard-profile-card .dashboard-footer a iconify-icon {
+  position: relative;
+  top: 2px;
+  left: -10px;
+}
+.dashboard .dashboard-profile-card .dashboard-footer:hover {
+  background-color: var(--cardBg);
+  color: var(--blueColor);
+  overflow: visible;
+  border-radius: 0px 0px 15px 15px;
+}
+.dashboard .dashboard-card {
+  border-radius: 4px;
+  position: relative;
+}
+.dashboard .dashboard-card .card-content {
+  color: var(--whiteColor);
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+.dashboard .dashboard-card .card-content h5 {
+  margin-bottom: 0;
+}
+.dashboard .dashboard-card .card-content p {
+  color: var(--whiteColor);
+}
+.dashboard .default-shipping-address {
+  margin-top: 70px;
+  border: 1px solid var(--blueColor);
+  border-radius: 15px;
+  padding: 15px;
+}
+.dashboard .default-shipping-address .shipping-address-header p {
+  color: var(--headerColor);
+  margin-bottom: 15px;
+  font-family: var(--primaryFont);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.dashboard .default-shipping-address .shipping-address-details {
+  border-top: 1px solid var(--blueColor);
+}
+.dashboard .default-shipping-address .shipping-address-details ul {
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 20px;
+}
+.dashboard .default-shipping-address .shipping-address-details ul li {
+  color: var(--headerColor);
+  margin-bottom: 5px;
+  font-family: var(--primaryFont);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
 .section-heading h3 {
   margin-bottom: 0;
   font-size: 48px;
