@@ -42,7 +42,7 @@
     }
     .form-control {
       border-color: var(--blueColor);
-      border- &:focus {
+      &:focus {
         border-color: var(--blueColor) !important;
         box-shadow: none !important;
       }
@@ -51,7 +51,7 @@
     }
     .form-select {
       border-color: var(--blueColor);
-      border- &:focus {
+      &:focus {
         border-color: var(--blueColor) !important;
         box-shadow: none !important;
       }

@@ -989,7 +989,7 @@ Header Responsive Area CSS
   margin-bottom: 15px;
   padding: 16px !important;
 }
-border- .checkout .checkout-info .form-control:focus {
+.checkout .checkout-info .form-control:focus {
   border-color: var(--blueColor) !important;
   box-shadow: none !important;
 }
@@ -998,7 +998,7 @@ border- .checkout .checkout-info .form-control:focus {
   margin-bottom: 15px;
   padding: 16px !important;
 }
-border- .checkout .checkout-info .form-select:focus {
+.checkout .checkout-info .form-select:focus {
   border-color: var(--blueColor) !important;
   box-shadow: none !important;
 }
