@@ -357,8 +357,8 @@
               </div>
               <div class="dashboard-item-list">
                 <ul>
-                  <li class="active">
-                    <a href="#"
+                  <li>
+                    <a href="dashboard.html"
                       ><iconify-icon icon="ion:home-outline"></iconify-icon
                       >Dashboard</a
                     >
@@ -368,8 +368,8 @@
                       ><iconify-icon icon="prime:box"></iconify-icon>My Order</a
                     >
                   </li>
-                  <li>
-                    <a href="myinfo.html"
+                  <li class="active">
+                    <a href="#"
                       ><iconify-icon
                         icon="simple-line-icons:note"
                       ></iconify-icon
@@ -377,13 +377,13 @@
                     >
                   </li>
                   <li>
-                    <a href="#"
+                    <a href="purcheshistory.html"
                       ><iconify-icon icon="ion:home-outline"></iconify-icon
                       >Purchase History</a
                     >
                   </li>
                   <li>
-                    <a href="#"
+                    <a href="wishlist.html"
                       ><iconify-icon icon="ri:heart-line"></iconify-icon
                       >Wishlist</a
                     >
@@ -391,7 +391,7 @@
                 </ul>
               </div>
               <div class="dashboard-footer">
-                <a href="#"
+                <a href="index.html"
                   ><iconify-icon icon="heroicons-outline:logout"></iconify-icon
                   >Sign Out</a
                 >
@@ -429,22 +429,42 @@
                 </div>
               </div>
             </div>
-            <div class="default-shipping-address">
-              <div class="shipping-address-header">
-                <p>Default Shipping Address</p>
+            <div class="billing-info">
+              <div class="row">
+                <div class="col">
+                  <label for="firstName" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    id="firstName"
+                    class="form-control"
+                    placeholder="First name"
+                    aria-label="First name"
+                    readonly
+                  />
+                </div>
+                <div class="col">
+                  <label for="inputAddress" class="form-label">Email</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress"
+                    placeholder="Email Address"
+                    readonly
+                  />
+                </div>
               </div>
-              <div class="shipping-address-details">
-                <ul>
-                  <li>
-                    Address: Rode #66, West Side Avenue Hackensack, Mid Town,
-                    New York
-                  </li>
-                  <li>Country: United States</li>
-                  <li>State: New York</li>
-                  <li>City: New York</li>
-                  <li>Postal Code:: 1212</li>
-                  <li>Phone: 210-2121212121</li>
-                </ul>
+
+              <div class="col-12">
+                <label for="inputAddress" class="form-label"
+                  >Phone Number</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress"
+                  placeholder="Phone Number"
+                  readonly
+                />
               </div>
             </div>
           </div>

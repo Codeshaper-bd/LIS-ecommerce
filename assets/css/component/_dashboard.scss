@@ -136,4 +136,125 @@
       }
     }
   }
+  .table-wrapper {
+    overflow-x: scroll;
+    margin-top: 60px;
+    .table-products {
+      margin-top: 15px;
+      .table {
+        border: 1px solid var(--text-02, #475569);
+
+        th {
+          position: relative;
+          .popup-button {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+          }
+          padding-left: 30px;
+        }
+        td {
+          .table-item-single {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            .table-image {
+              display: flex;
+              align-items: center;
+            }
+            .table-content {
+              margin-left: 10px;
+              p {
+                line-height: 1 !important;
+                margin-bottom: 5px !important;
+                span {
+                  font-weight: 600;
+                }
+              }
+            }
+          }
+          .button-group {
+            iconify-icon {
+              position: relative;
+              top: 3px;
+              color: var(--blueColor);
+            }
+            .counter-button {
+              width: 100px;
+              overflow: hidden;
+              margin-right: 10px;
+              background-color: transparent;
+              border: 1px solid var(--blueColor);
+              border-radius: 4px;
+              button {
+                background-color: var(--whiteColor);
+                color: #252873;
+                border: none;
+                width: 30px;
+                height: 30px;
+              }
+
+              input {
+                text-align: center;
+                width: 25px;
+                outline: none;
+                border: none;
+                &:focus {
+                  border: none;
+                  outline: none;
+                }
+              }
+            }
+            .default-button {
+              border: transparent;
+              padding: 0 !important;
+              &:hover {
+                padding: 0 !important;
+                iconify-icon {
+                  padding-left: 0;
+                  color: var(--whiteColor);
+                }
+                color: var(--whiteColor);
+              }
+              iconify-icon {
+                padding-left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .billing-info {
+    margin-top: 45px;
+    .form-label {
+      margin-top: 20px;
+      color: var(--headerColor);
+      font-family: var(--primaryFont);
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+    }
+    .form-control {
+      border-color: var(--blueColor);
+      &:focus {
+        border-color: var(--blueColor) !important;
+        box-shadow: none !important;
+      }
+      margin-bottom: 15px;
+      padding: 16px !important;
+    }
+    .form-select {
+      border-color: var(--blueColor);
+      &:focus {
+        border-color: var(--blueColor) !important;
+        box-shadow: none !important;
+      }
+      margin-bottom: 15px;
+      padding: 16px !important;
+    }
+  }
+  .active {
+    background-color: var(--cardBg);
+    border-radius: 10px;
+  }
 }

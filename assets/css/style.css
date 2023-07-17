@@ -2409,6 +2409,121 @@ Header Responsive Area CSS
   font-weight: 600;
   line-height: 24px;
 }
+.dashboard .table-wrapper {
+  overflow-x: scroll;
+  margin-top: 60px;
+}
+.dashboard .table-wrapper .table-products {
+  margin-top: 15px;
+}
+.dashboard .table-wrapper .table-products .table {
+  border: 1px solid var(--text-02, #475569);
+}
+.dashboard .table-wrapper .table-products .table th {
+  position: relative;
+  padding-left: 30px;
+}
+.dashboard .table-wrapper .table-products .table th .popup-button {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+.dashboard .table-wrapper .table-products .table td .table-item-single {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+}
+.dashboard .table-wrapper .table-products .table td .table-item-single .table-image {
+  display: flex;
+  align-items: center;
+}
+.dashboard .table-wrapper .table-products .table td .table-item-single .table-content {
+  margin-left: 10px;
+}
+.dashboard .table-wrapper .table-products .table td .table-item-single .table-content p {
+  line-height: 1 !important;
+  margin-bottom: 5px !important;
+}
+.dashboard .table-wrapper .table-products .table td .table-item-single .table-content p span {
+  font-weight: 600;
+}
+.dashboard .table-wrapper .table-products .table td .button-group iconify-icon {
+  position: relative;
+  top: 3px;
+  color: var(--blueColor);
+}
+.dashboard .table-wrapper .table-products .table td .button-group .counter-button {
+  width: 100px;
+  overflow: hidden;
+  margin-right: 10px;
+  background-color: transparent;
+  border: 1px solid var(--blueColor);
+  border-radius: 4px;
+}
+.dashboard .table-wrapper .table-products .table td .button-group .counter-button button {
+  background-color: var(--whiteColor);
+  color: #252873;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+.dashboard .table-wrapper .table-products .table td .button-group .counter-button input {
+  text-align: center;
+  width: 25px;
+  outline: none;
+  border: none;
+}
+.dashboard .table-wrapper .table-products .table td .button-group .counter-button input:focus {
+  border: none;
+  outline: none;
+}
+.dashboard .table-wrapper .table-products .table td .button-group .default-button {
+  border: transparent;
+  padding: 0 !important;
+}
+.dashboard .table-wrapper .table-products .table td .button-group .default-button:hover {
+  padding: 0 !important;
+  color: var(--whiteColor);
+}
+.dashboard .table-wrapper .table-products .table td .button-group .default-button:hover iconify-icon {
+  padding-left: 0;
+  color: var(--whiteColor);
+}
+.dashboard .table-wrapper .table-products .table td .button-group .default-button iconify-icon {
+  padding-left: 0;
+}
+.dashboard .billing-info {
+  margin-top: 45px;
+}
+.dashboard .billing-info .form-label {
+  margin-top: 20px;
+  color: var(--headerColor);
+  font-family: var(--primaryFont);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.dashboard .billing-info .form-control {
+  border-color: var(--blueColor);
+  margin-bottom: 15px;
+  padding: 16px !important;
+}
+.dashboard .billing-info .form-control:focus {
+  border-color: var(--blueColor) !important;
+  box-shadow: none !important;
+}
+.dashboard .billing-info .form-select {
+  border-color: var(--blueColor);
+  margin-bottom: 15px;
+  padding: 16px !important;
+}
+.dashboard .billing-info .form-select:focus {
+  border-color: var(--blueColor) !important;
+  box-shadow: none !important;
+}
+.dashboard .active {
+  background-color: var(--cardBg);
+  border-radius: 10px;
+}
 
 .section-heading h3 {
   margin-bottom: 0;
