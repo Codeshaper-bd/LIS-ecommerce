@@ -152,12 +152,14 @@ img {
 @import "component/topbar";
 @import "component/header";
 @import "component/banner-slider";
+@import "component/checkout";
 @import "component/category";
 @import "component/popularProducts";
 @import "component/product-details";
 @import "component/offcanvas";
 @import "component/footer";
 @import "component/filter-category";
+@import "component/dashboard";
 
 // Section Heading
 .section-heading {
@@ -338,6 +340,18 @@ img {
           top: 2px;
         }
       }
+    }
+  }
+}
+
+.download-button {
+  width: 350px;
+  margin: 0 auto;
+  .default-button {
+    display: block;
+    iconify-icon {
+      position: relative;
+      top: 5px;
     }
   }
 }
