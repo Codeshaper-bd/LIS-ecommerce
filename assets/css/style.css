@@ -1176,6 +1176,8 @@ Header Responsive Area CSS
   transition: 0.5s ease-in-out;
   border: 1px solid transparent;
   background-color: var(--cardBg);
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .category-card::before {
   content: "";

@@ -14,6 +14,11 @@
   transition: 0.5s ease-in-out;
   border: 1px solid transparent;
   background-color: var(--cardBg);
+  margin: {
+    left: 15px;
+    right: 15px;
+  };
+
   &::before {
     content: "";
     width: 100%;
