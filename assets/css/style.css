@@ -2309,6 +2309,7 @@ Header Responsive Area CSS
   list-style: none;
 }
 .dashboard .dashboard-profile-card .dashboard-item-list ul li {
+  margin: 10px 0;
   color: var(--blueColor);
   padding: 15px;
   font-family: var(--primaryFont);
