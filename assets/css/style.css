@@ -2492,6 +2492,43 @@ Header Responsive Area CSS
   border-radius: 10px;
 }
 
+@media only screen and (max-width: 767px) {
+  .dashboard-card {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .dashboard-card .card-content {
+    color: var(--whiteColor);
+    position: absolute;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+  .dashboard-card .card-content h5 {
+    margin-bottom: 0;
+  }
+  .dashboard-card .card-content p {
+    color: var(--whiteColor);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .dashboard-card {
+    margin-top: 20px;
+  }
+  .dashboard-card .card-content {
+    color: var(--whiteColor);
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+  .dashboard-card .card-content h5 {
+    margin-bottom: 0;
+  }
+  .dashboard-card .card-content p {
+    color: var(--whiteColor);
+  }
+}
 .upload-file {
   width: 100%;
   background-color: #fcfcfc;
