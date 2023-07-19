@@ -500,7 +500,26 @@
               </div>
               <div class="payment-method">
                 <h4>Payment Method</h4>
-                <div class="radio-button-group">
+                <p>Upload your payment details here.</p>
+                <div class="upload-file">
+                  <div class="card">
+                    <div class="drop_box">
+                      <header>
+                        <h4>Upload File here</h4>
+                      </header>
+                      <p>Files Supported: PDF, TEXT, DOC , DOCX</p>
+                      <input
+                        type="file"
+                        hidden
+                        accept=".doc,.docx,.pdf"
+                        id="fileID"
+                        style="display: none"
+                      />
+                      <button class="btn">Choose File</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="radio-button-group">
                   <div class="form-check">
                     <input
                       class="form-check-input"
@@ -552,7 +571,7 @@
                     >I have read and agree to the website terms and
                     conditions.</label
                   >
-                </div>
+                </div> -->
               </div>
               <div class="place-order-button">
                 <a class="default-button blue-button" href="#"
