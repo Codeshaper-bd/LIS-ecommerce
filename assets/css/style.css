@@ -2456,7 +2456,7 @@ Header Responsive Area CSS
   line-height: 24px;
 }
 .dashboard .table-wrapper {
-  overflow-x: scroll;
+  overflow-x: auto;
   margin-top: 60px;
 }
 .dashboard .table-wrapper .table-products {
