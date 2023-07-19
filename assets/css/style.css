@@ -2427,117 +2427,33 @@ Header Responsive Area CSS
 .dashboard .dashboard-card .card-content p {
   color: var(--whiteColor);
 }
-.dashboard .default-shipping-address {
-  margin-top: 70px;
-  border: 1px solid var(--blueColor);
-  border-radius: 15px;
-  padding: 15px;
-}
-.dashboard .default-shipping-address .shipping-address-header p {
-  color: var(--headerColor);
-  margin-bottom: 15px;
-  font-family: var(--primaryFont);
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
-}
-.dashboard .default-shipping-address .shipping-address-details {
-  border-top: 1px solid var(--blueColor);
-}
-.dashboard .default-shipping-address .shipping-address-details ul {
-  list-style: none;
-  padding-left: 0px;
-  padding-top: 20px;
-}
-.dashboard .default-shipping-address .shipping-address-details ul li {
-  color: var(--headerColor);
-  margin-bottom: 5px;
-  font-family: var(--primaryFont);
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
-}
 .dashboard .table-wrapper {
   overflow-x: auto;
-  margin-top: 60px;
+  margin-top: 30px;
 }
-.dashboard .table-wrapper .table-products {
-  margin-top: 15px;
+.dashboard .table-wrapper .table > thead > tr > th {
+  border-color: rgba(41, 66, 105, 0.4) !important;
 }
-.dashboard .table-wrapper .table-products .table {
-  border: 1px solid var(--text-02, #475569);
-}
-.dashboard .table-wrapper .table-products .table th {
-  position: relative;
-  padding-left: 10px;
-}
-.dashboard .table-wrapper .table-products .table th .popup-button {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-}
-.dashboard .table-wrapper .table-products .table td .table-item-single {
-  display: grid;
-  grid-template-columns: 100px 1fr;
-}
-.dashboard .table-wrapper .table-products .table td .table-item-single .table-image {
-  display: flex;
-  align-items: center;
-}
-.dashboard .table-wrapper .table-products .table td .table-item-single .table-content {
-  margin-left: 10px;
-}
-.dashboard .table-wrapper .table-products .table td .table-item-single .table-content p {
-  line-height: 1 !important;
-  margin-bottom: 5px !important;
-}
-.dashboard .table-wrapper .table-products .table td .table-item-single .table-content p span {
-  font-weight: 600;
-}
-.dashboard .table-wrapper .table-products .table td .button-group iconify-icon {
-  position: relative;
-  top: 3px;
-  color: var(--blueColor);
-}
-.dashboard .table-wrapper .table-products .table td .button-group .counter-button {
-  width: 100px;
-  overflow: hidden;
-  margin-right: 10px;
-  background-color: transparent;
-  border: 1px solid var(--blueColor);
-  border-radius: 4px;
-}
-.dashboard .table-wrapper .table-products .table td .button-group .counter-button button {
-  background-color: var(--whiteColor);
-  color: #252873;
-  border: none;
-  width: 30px;
-  height: 30px;
-}
-.dashboard .table-wrapper .table-products .table td .button-group .counter-button input {
+.dashboard .table-wrapper h4 {
+  font-size: 36px;
   text-align: center;
-  width: 25px;
-  outline: none;
-  border: none;
+  font-weight: 600;
+  font-family: var(--primaryFont);
+  color: var(--headerColor);
+  margin-bottom: 30px;
 }
-.dashboard .table-wrapper .table-products .table td .button-group .counter-button input:focus {
-  border: none;
-  outline: none;
+.dashboard .table-wrapper .popular-product-card .popular-product-card-text-area h4 {
+  margin-bottom: 5px !important;
+  font-size: 24px !important;
 }
-.dashboard .table-wrapper .table-products .table td .button-group .default-button {
-  border: transparent;
-  padding: 0 !important;
+.dashboard .table-wrapper ul {
+  list-style: decimal;
 }
-.dashboard .table-wrapper .table-products .table td .button-group .default-button:hover {
-  padding: 0 !important;
-  color: var(--whiteColor);
-}
-.dashboard .table-wrapper .table-products .table td .button-group .default-button:hover iconify-icon {
-  padding-left: 0;
-  color: var(--whiteColor);
-}
-.dashboard .table-wrapper .table-products .table td .button-group .default-button iconify-icon {
-  padding-left: 0;
+.dashboard .table-wrapper tr td {
+  font-family: var(--primaryFont);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--blueColor);
 }
 .dashboard .billing-info {
   margin-top: 45px;

@@ -134,5 +134,9 @@
     dropArea.innerHTML = filedata;
   });
 
+  //turnicate
+  $('.turnicate').each(function (index, value) {
+    $(this).html($(this).html().substring(0, 25)); // number of characters
+  });
 
 })(jQuery);
