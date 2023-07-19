@@ -161,6 +161,7 @@ img {
 @import "component/filter-category";
 @import "component/upload-image";
 @import "component/dashboard";
+@import "component/upload-file";
 
 // Section Heading
 .section-heading {
@@ -345,14 +346,14 @@ img {
   }
 }
 
-.download-button {
-  width: 350px;
-  margin: 0 auto;
-  .default-button {
-    display: block;
-    iconify-icon {
-      position: relative;
-      top: 5px;
-    }
-  }
-}
+// .download-button {
+//   width: 350px;
+//   margin: 0 auto;
+//   .default-button {
+//     display: block;
+//     iconify-icon {
+//       position: relative;
+//       top: 5px;
+//     }
+//   }
+// }

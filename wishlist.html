@@ -105,19 +105,38 @@
               </ul>
               <div class="menu-sidebar">
                 <ul>
-                  <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                    <iconify-icon icon="mdi:cart-outline"></iconify-icon>
+                  <li>
+                    <a href="dashboard.html"
+                      ><iconify-icon icon="ion:home-outline"></iconify-icon
+                      >Dashboard</a
+                    >
+                  </li>
+                  <!-- <li>
+                    <a href="myorder.html"
+                      ><iconify-icon icon="prime:box"></iconify-icon>My Order</a
+                    >
                   </li>
                   <li>
-                    <button class="popup-button">
-                      <iconify-icon id="popupSearchButton" icon="iconamoon:search-thin"></iconify-icon>
-                      <div class="popupSearchBar">
-                        <input type="text" class="form-control" placeholder="Search ..." />
-                      </div>
-                    </button>
-                  </li>
+                    <a href="myinfo.html"
+                      ><iconify-icon
+                        icon="simple-line-icons:note"
+                      ></iconify-icon
+                      >My Info</a
+                    >
+                  </li> -->
                   <li>
-                    <a class="default-button blue-button" href="contact-us.html"><span>Admission</span></a>
+                    <a href="purcheshistory.html"
+                      ><iconify-icon
+                        icon="simple-line-icons:note"
+                      ></iconify-icon>Purchase
+                      History</a
+                    >
+                  </li>
+                  <li class="active">
+                    <a href="#"
+                      ><iconify-icon icon="ri:heart-line"></iconify-icon
+                      >Wishlist</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -207,125 +226,49 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="table-wrapper">
-            <h4>Wishlist</h4>
-            <div class="table-products">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th class="align-middle" scope="col"></th>
-                    <th class="align-middle" scope="col">Products</th>
-                    <th class="align-middle" scope="col">Price</th>
-                    <th class="align-middle" scope="col">Quantity</th>
-                    <th class="align-middle" scope="col">Subtotal</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">
-                      <button class="popup-button">
-                        <iconify-icon icon="ph:x-bold"></iconify-icon>
-                      </button>
-                    </th>
-                    <td class="align-middle">
-                      <div class="table-item-single">
-                        <div class="table-image">
-                          <img src="assets/images/products/t-shirt-black-h.png" alt="cup" />
-                        </div>
-                        <div class="table-content">
-                          <p>Men</p>
-                          <h4>LIS Casuals Black T-Shirt</h4>
-                          <p>Color: <span>Black</span></p>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="align-middle">$80.00</td>
-                    <td class="align-middle">
-                      <div class="button-group">
-                        <div class="counter-button">
-                          <button type="button" class="left">
-                            <iconify-icon icon="iconoir:minus"></iconify-icon>
-                          </button>
-                          <input readonly type="text" value="0" name="qty" class="qty" />
-                          <button type="button" class="right">
-                            <iconify-icon icon="ic:baseline-plus"></iconify-icon>
-                          </button>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="align-middle">$80.00</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">
-                      <button class="popup-button">
-                        <iconify-icon icon="ph:x-bold"></iconify-icon>
-                      </button>
-                    </th>
-                    <td class="align-middle">
-                      <div class="table-item-single">
-                        <div class="table-image">
-                          <img src="assets/images/products/t-shirt-black-h.png" alt="cup" />
-                        </div>
-                        <div class="table-content">
-                          <p>Men</p>
-                          <h4>LIS Casuals Black T-Shirt</h4>
-                          <p>Color: <span>Black</span></p>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="align-middle">$80.00</td>
-                    <td class="align-middle">
-                      <div class="button-group">
-                        <div class="counter-button">
-                          <button type="button" class="left">
-                            <iconify-icon icon="iconoir:minus"></iconify-icon>
-                          </button>
-                          <input readonly type="text" value="0" name="qty" class="qty" />
-                          <button type="button" class="right">
-                            <iconify-icon icon="ic:baseline-plus"></iconify-icon>
-                          </button>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="align-middle">$80.00</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">
-                      <button class="popup-button">
-                        <iconify-icon icon="ph:x-bold"></iconify-icon>
-                      </button>
-                    </th>
-                    <td class="align-middle">
-                      <div class="table-item-single">
-                        <div class="table-image">
-                          <img src="assets/images/products/t-shirt-black-h.png" alt="cup" />
-                        </div>
-                        <div class="table-content">
-                          <p>Men</p>
-                          <h4>LIS Casuals Black T-Shirt</h4>
-                          <p>Color: <span>Black</span></p>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="align-middle">$80.00</td>
-                    <td class="align-middle">
-                      <div class="button-group">
-                        <div class="counter-button">
-                          <button type="button" class="left">
-                            <iconify-icon icon="iconoir:minus"></iconify-icon>
-                          </button>
-                          <input readonly type="text" value="0" name="qty" class="qty" />
-                          <button type="button" class="right">
-                            <iconify-icon icon="ic:baseline-plus"></iconify-icon>
-                          </button>
-                        </div>
-                      </div>
-                    </td>
-                    <td class="align-middle">$80.00</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div class="table-wrapper">
+              <h6>Design for Purchase History</h6>
+              <div class="row">
+                <div class="col-xl-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Product Name</h5>
+                      <img
+                        class="rounded shadow-sm w-100"
+                        src="https://elaandearth.com.au/cdn/shop/products/23_49421853-d779-4f83-88b2-9846386a0ec9_3200x.png?v=1679028696"
+                      />
+                      <h6 class="card-title mt-2">Price: AOA 2522</h6>
+                      <a href="#">View Product</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Product Name</h5>
+                      <img
+                        class="rounded shadow-sm w-100"
+                        src="https://elaandearth.com.au/cdn/shop/products/23_49421853-d779-4f83-88b2-9846386a0ec9_3200x.png?v=1679028696"
+                      />
+                      <h6 class="card-title mt-2">Price: AOA 2522</h6>
+                      <a href="#">View Product</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Product Name</h5>
+                      <img
+                        class="rounded shadow-sm w-100"
+                        src="https://elaandearth.com.au/cdn/shop/products/23_49421853-d779-4f83-88b2-9846386a0ec9_3200x.png?v=1679028696"
+                      />
+                      <h6 class="card-title mt-2">Price: AOA 2522</h6>
+                      <a href="#">View Product</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
