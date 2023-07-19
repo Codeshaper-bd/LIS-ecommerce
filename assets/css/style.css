@@ -2440,7 +2440,10 @@ Header Responsive Area CSS
   font-weight: 600;
   font-family: var(--primaryFont);
   color: var(--headerColor);
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+.dashboard .table-wrapper .popular-product-card {
+  margin-top: 0px;
 }
 .dashboard .table-wrapper .popular-product-card .popular-product-card-text-area h4 {
   margin-bottom: 5px !important;

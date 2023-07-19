@@ -149,9 +149,10 @@
       font-weight: 600;
       font-family: var(--primaryFont);
       color: var(--headerColor);
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
     .popular-product-card {
+      margin-top: 0px;
       .popular-product-card-text-area {
         h4 {
           margin-bottom: 5px !important;
