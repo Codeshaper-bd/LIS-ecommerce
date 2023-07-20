@@ -96,37 +96,28 @@
                 <li class="nav-item">
                   <a href="product-category.html" class="nav-link dropdown-toggle">Product Category</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a href="download.html" class="nav-link dropdown-toggle">Download</a>
                 </li>
                 <li class="nav-item">
                   <a href="dashboard.html" class="nav-link dropdown-toggle">Dashboard</a>
-                </li>
+                </li> -->
               </ul>
               <div class="menu-sidebar">
                 <ul>
-                  <li>
-                    <a href="dashboard.html"><iconify-icon icon="ion:home-outline"></iconify-icon>Dashboard</a>
-                  </li>
-                  <!-- <li>
-                    <a href="myorder.html"
-                      ><iconify-icon icon="prime:box"></iconify-icon>My Order</a
-                    >
+                  <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <iconify-icon icon="mdi:cart-outline"></iconify-icon>
                   </li>
                   <li>
-                    <a href="myinfo.html"
-                      ><iconify-icon
-                        icon="simple-line-icons:note"
-                      ></iconify-icon
-                      >My Info</a
-                    >
-                  </li> -->
-                  <li>
-                    <a href="purcheshistory.html"><iconify-icon icon="simple-line-icons:note"></iconify-icon>Purchase
-                      History</a>
+                    <button class="popup-button">
+                      <iconify-icon id="popupSearchButton" icon="iconamoon:search-thin"></iconify-icon>
+                      <div class="popupSearchBar">
+                        <input type="text" class="form-control" placeholder="Search ..." />
+                      </div>
+                    </button>
                   </li>
-                  <li class="active">
-                    <a href="#"><iconify-icon icon="ri:heart-line"></iconify-icon>Wishlist</a>
+                  <li>
+                    <a class="default-button blue-button" href="dashboard.html"><span>Dashboard</span></a>
                   </li>
                 </ul>
               </div>
