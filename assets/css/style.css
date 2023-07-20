@@ -1793,10 +1793,13 @@ Header Responsive Area CSS
 }
 .offcanvas .offcanvas-body .cart-footer form input {
   opacity: 0;
+  position: relative;
+  z-index: 2;
 }
 .offcanvas .offcanvas-body .cart-footer form label {
   padding-left: 8px;
   color: var(--textColor);
+  z-index: 1;
 }
 .offcanvas .offcanvas-body .cart-footer form .checkbox {
   width: 14px;
