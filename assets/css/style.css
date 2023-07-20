@@ -18,6 +18,13 @@ body {
   box-sizing: border-box;
 }
 
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
 a {
   display: inline-block;
   text-decoration: none;
@@ -1378,6 +1385,9 @@ Header Responsive Area CSS
   background-color: #333333 !important;
 }
 
+.product-details-page {
+  background-color: var(--whiteColor);
+}
 .product-details-page .gallery {
   background-color: var(--whiteColor);
 }
@@ -2036,9 +2046,12 @@ Header Responsive Area CSS
 }
 .filter-by-category .category-list ul li .filter-item input {
   opacity: 0;
+  position: relative;
+  z-index: 2;
 }
 .filter-by-category .category-list ul li .filter-item label {
   padding-left: 8px;
+  z-index: 1;
 }
 .filter-by-category .category-list ul li .filter-item .checkbox {
   width: 14px;
@@ -2158,9 +2171,12 @@ Header Responsive Area CSS
 }
 .filter-by-stock .category-list ul li .filter-item input {
   opacity: 0;
+  position: relative;
+  z-index: 2;
 }
 .filter-by-stock .category-list ul li .filter-item label {
   padding-left: 8px;
+  z-index: 1;
 }
 .filter-by-stock .category-list ul li .filter-item .checkbox {
   width: 14px;
@@ -2448,6 +2464,7 @@ Header Responsive Area CSS
 .dashboard .table-wrapper .popular-product-card .popular-product-card-text-area h4 {
   margin-bottom: 5px !important;
   font-size: 24px !important;
+  text-align: left;
 }
 .dashboard .table-wrapper ul {
   list-style: decimal;
@@ -2492,7 +2509,7 @@ Header Responsive Area CSS
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 575px) {
   .dashboard-card {
     margin-top: 20px;
     text-align: center;
@@ -2509,6 +2526,42 @@ Header Responsive Area CSS
   }
   .dashboard-card .card-content p {
     color: var(--whiteColor);
+  }
+  .popular-product-card {
+    margin-top: 20px !important;
+  }
+  .popular-product-card .popular-product-card-text-area h4 {
+    margin-bottom: 5px !important;
+    font-size: 24px !important;
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .dashboard-card {
+    margin-top: 20px;
+  }
+  .dashboard-card .card-content {
+    color: var(--whiteColor);
+    position: absolute;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+  .dashboard-card .card-content h5 {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .dashboard-card .card-content p {
+    color: var(--whiteColor);
+    font-size: 14px;
+  }
+  .popular-product-card {
+    margin-top: 20px;
+  }
+  .popular-product-card .popular-product-card-text-area h4 {
+    margin-bottom: 5px !important;
+    font-size: 24px !important;
+    text-align: left;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

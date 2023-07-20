@@ -108,7 +108,6 @@
     image.src = URL.createObjectURL(event.target.files[0]);
   };
 
-
   //file-upload
   const dropArea = document.querySelector(".drop_box"),
     button = dropArea.querySelector("button"),
@@ -127,16 +126,15 @@
     <form action="" method="post">
     <div class="form">
     <h4>${fileName}</h4>
-    <input type="email" placeholder="Enter email upload file">
-    <button class="btn">Upload</button>
     </div>
     </form>`;
     dropArea.innerHTML = filedata;
   });
 
-  //turnicate
-  $('.turnicate').each(function (index, value) {
-    $(this).html($(this).html().substring(0, 25)); // number of characters
-  });
+  // <input type="email" placeholder="Enter email upload file">
+  //   <button class="btn">Upload</button>
+
+  
+
 
 })(jQuery);

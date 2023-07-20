@@ -1,8 +1,12 @@
 .product-details-page {
+  background-color: var(--whiteColor);
   .gallery {
     background-color: var(--whiteColor);
     .slider-nav {
       margin-top: 20px;
+      // .slick-list {
+      //   background-color: var(--whiteColor);
+      // }
       .slider-nav-single {
         margin: 0 5px;
       }
